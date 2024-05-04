@@ -114,11 +114,10 @@ const Game = () => {
             <Typography variant="h3" align="center" style={styles.headingStyle}>
                 🎲 7 Up 7 Down Game 🎲
             </Typography>
-
-            {/* Display current points with animation */}
             <Typography variant="h6" align="center" style={styles.pointsStyle}>
                 Current Points:  <Points>{points}</Points>
             </Typography>
+
             {points > 0 ?
                 <div>
                     {/* Betting options buttons */}
